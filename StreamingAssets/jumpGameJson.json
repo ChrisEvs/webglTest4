@@ -1,0 +1,50 @@
+{
+    "instructions": [
+        {
+            "textEng": "Need to collect certain amount of insulin for a certain amount of carbohydrate ",
+            "textCym": "Croeso, yn gadael i chwarae gêm"
+        }
+    ],
+    "rounds": [
+        {
+            "roundTxtEng": "Collect enough insulin for eating 100g of carbohydrate.",
+            "roundTxtCym": "Oops. Chocolate contains fat and is digested too slowly to use as a hypo treatment",
+            "ratio": "1:10",
+            "food": "ham",
+            "insulinNum": "10",
+            "grams": "100",
+            "endRoundTxtEng": "Well done completed the round",
+            "endRoundTxtCym": "Da iawn cwblhau'r rownd"
+        },
+        {
+            "roundTxtEng": "Collect enough insulin for eating 200g of carbohydrate.",
+            "roundTxtCym": "Oops. Chocolate contains fat and is digested too slowly to use as a hypo treatment",
+            "ratio": "1:20",
+            "food": "cheese",
+            "insulinNum": "20",
+            "grams": "120",
+            "endRoundTxtEng": "Well done completed the round",
+            "endRoundTxtCym": "Da iawn cwblhau'r rownd"
+        },
+        {
+            "roundTxtEng": "Collect enough insulin for eating 300g of carbohydrate.",
+            "roundTxtCym": "Oops. Chocolate contains fat and is digested too slowly to use as a hypo treatment",
+            "ratio": "1:30",
+            "food": "turkey",
+            "insulinNum": "50",
+            "grams": "150",
+            "endRoundTxtEng": "Well done completed the round",
+            "endRoundTxtCym": "Da iawn cwblhau'r rownd"
+        },
+        {
+            "roundTxtEng": "Collect enough insulin for eating 400g of carbohydrate.",
+            "roundTxtCym": "Oops. Chocolate contains fat and is digested too slowly to use as a hypo treatment",
+            "ratio": "1:40",
+            "food": "cow",
+            "insulinNum": "100",
+            "grams": "200",
+            "endRoundTxtEng": "Well done completed the round",
+            "endRoundTxtCym": "Da iawn cwblhau'r rownd"
+        }
+    ]
+}
