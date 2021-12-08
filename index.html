@@ -6,8 +6,41 @@
     <title>Unity WebGL Player | SerenJumpGame</title>
   </head>
   <body style="text-align: center">
-    <canvas id="unity-canvas" width=960 height=600 style="width: 960px; height: 600px; background: #231F20"></canvas>
+    <button id="button" style="position: absolute;
+left: 43%;
+margin-left: auto;
+margin-right: auto;
+top: 50%;
+visibility: visible;
+padding: 25px;
+border-radius: 51px;
+background-color: 81CEBD;
+background-color: #81CEBD;
+color: white;
+font-size: 38px;
+font-weight: bold;
+/* text-shadow: -10px -10px 0 #81CEBD, 10px 2px 0 #316a5d, 8px 1px 0 #81CEBD, 1px 1px 0 #81CEBD; */
+text-shadow: 3px  3px 0 #0da688,
+-1px -1px 0 #1da688,  
+1px -1px 0 #0da688,
+-1px  1px 0 #1da688,
+1px  1px 0 #1da688;
+" onclick="start()">Play</button>
+      <canvas id="unity-canvas" width=960 height=600 style="width: 960px; height: 600px; background: #231F20; visibility: hidden;"></canvas>
     <script src="Build/SerenJump.loader.js"></script>
+       <script>
+      function start() {
+        document.getElementById("unity-canvas").style.visibility= "visible";
+           document.getElementById("button").style.visibility= "hidden";
+        var audio = document.getElementById("sound");
+          audio.play();
+      }
+    </script>
+     
+    <audio id="sound" preload="auto">
+      <source src="StreamingAssets/Life.wav" type="audio/mpeg" codecs="wav">
+      Your browser does not support the audio element.
+    </audio>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
